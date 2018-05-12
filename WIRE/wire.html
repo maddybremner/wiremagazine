@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        /* Prevents slides from flashing */
+        #slides {
+            display: none;
+        }
+    </style>
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xcp0kii.css">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="reset.css"/>
+
+    <!--JS Files-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+
+    <script>
+        $(function () {
+            $("#slides").slidesjs({
+                effect: {
+                    slide: {speed: 1000}
+                }
+            });
+        });
+
+        $(function () {
+            $("#slides2").slidesjs({
+                effect: {
+                    slide: {speed: 1000}
+                }
+            });
+        });
+
+        $(function () {
+            $("#slides3").slidesjs({
+                effect: {
+                    slide: {speed: 1000}
+                }
+            });
+        });
+    </script>
+
+    <title>The Wire</title>
+</head>
+
+
+<body>
+
+<!--hero section-->
+<div class="hero">
+    <div class="tagline">adventures in sound and music</div>
+
+    <div class="button"></div>
+
+    <div class="menu">
+        <div class="menucontainer">
+            <div class="menutext" id="menuitem">The Wire</div>
+            <div class="menutext" id="menuitem">About</div>
+            <div class="menutext" id="menuitem">Contact</div>
+            <div class="menutext" id="menuitem">Subscribe</div>
+            <div class="menutext" id="menuitem">Shop</div>
+            <br><br>
+            <div class="menutext" id="menuitem">Categories:</div>
+            <div class="categories" id="menuitem">News</div>
+            <div class="categories" id="menuitem">On Air</div>
+            <div class="categories" id="menuitem">Tracks</div>
+            <div class="categories" id="menuitem">Video</div>
+            <div class="categories" id="menuitem">The Portal</div>
+            <div class="categories" id="menuitem">Essays</div>
+        </div>
+    </div>
+
+
+    <img src="images/whitelogobig.png" class="logo">
+    <div class="heroimage"></div>
+
+    <div class="bounce-arrow">
+        <div class="bouncing">
+            <img src="images/arrowdown.png" class="arrow">
+        </div>
+    </div>
+
+    <div class="textwrapper">
+        <div class="tag" id="white">News</div>
+        <div class="headline" id="white">Tusk returns to Sage Gateshead</div>
+        <h4 class="caption" id="white">75 Dollar Bill, Ceramic Hobs and Otomo Yoshihide are among the those named to
+            make an appearance at the annual music weekender in the North East of England.</h4>
+    </div>
+
+</div>
+
+<!--content section-->
+<div class="gallerywrap">
+
+    <!--tracks slideshow-->
+
+    <div id="slides" class="gallery1">
+        <div>
+            <div class="tag">tracks</div>
+            <div class="viewall">view all</div>
+            <div id="one" class="gallerypic">
+                <div class="gallerycaption">
+                    <div class="smallheadline">Office Ambience 411</div>
+                    <div class="caption">Listen to a selection of tracks played at Wire HQ during the making of issue
+                        411
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="tag">tracks</div>
+            <div class="viewall">view all</div>
+            <div id="two" class="gallerypic">
+                <div class="gallerycaption">
+                    <div class="smallheadline">Once Upon A Time In The Midwest</div>
+                    <div class="caption">Writer Jacob Arnold compiles a selection of tracks featured in his article
+                        documenting the Midwest IDM scene of the late 1990s
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="tag">tracks</div>
+            <div class="viewall">view all</div>
+            <div id="three" class="gallerypic">
+                <div class="gallerycaption">
+                    <div class="smallheadline">Office Ambience 410</div>
+                    <div class="caption">Listen to a selection of tracks played at Wire HQ during the making of issue
+                        410
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="tag">tracks</div>
+            <div class="viewall">view all</div>
+            <div id="four" class="gallerypic">
+                <div class="gallerycaption">
+                    <div class="smallheadline">Hear unreleased live recordings by Shabaka & The Earth</div>
+                    <div class="caption">UK saxophonist Shabaka Hutchings unearths a performance by one of his past
+                        ensembles
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--scrolling ad-->
+
+    <div class="frame">
+        <div id="subscribe"></div>
+    </div>
+
+    <div id="slides2" class="gallery2">
+
+        <div>
+            <div class="tagcenter" id="white">The Portal</div>
+            <a href="portal.html"> <div class="viewalltwo">view all</div></a>
+            <div class="portalpic" id="five"></div>
+            <div class="portalheadline" id="white">Noel Meek explores Gaelic psalm singing</div>
+            <div class="captioncenter" id="white">A survey of performances and recordings of improvised <br>church
+                singing from the Outer Hebrides.
+            </div>
+        </div>
+
+        <div>
+            <div class="tagcenter" id="white">The Portal</div>
+            <div class="viewalltwo">view all</div>
+            <div class="portalpic" id="six"></div>
+            <div class="portalheadline" id="white">Liquid Sky Diving with Rob Young</div>
+            <div class="captioncenter" id="white">In light of the forthcoming DVD release of the cult film Liquid Sky,
+                Rob Young <br> delves into The Wire archives to unearth a different history of electronica.
+            </div>
+        </div>
+
+        <div>
+            <div class="tagcenter" id="white">The Portal</div>
+            <div class="viewalltwo">view all</div>
+            <div class="portalpic" id="seven"></div>
+            <div class="portalheadline" id="white">Cecil Taylor, Jazz Icon of the Avant Garde</div>
+            <div class="captioncenter" id="white">To mark the passing of Cecil Taylor, we present a selection of
+                articles drawn from <br>The Wire’s online archive in which other musicians discuss the pianist and his
+                music
+            </div>
+        </div>
+
+        <div>
+            <div class="tagcenter" id="white">The Portal</div>
+            <div class="viewalltwo">view all</div>
+            <div class="portalpic" id="eight"></div>
+            <div class="portalheadline" id="white">
+                Rob Mazurek: Towards the Idea of Universal Opera Dynamics
+            </div>
+            <div class="captioncenter" id="white">The Chicago Underground musician and visual artist is preparing <br> a
+                seven hour long opera titled The Book of Sound (Android Love Cry).
+            </div>
+        </div>
+
+    </div>
+
+    <!--News Section-->
+
+    <div class="frame2">
+        <div id="news"></div>
+    </div>
+
+    <div class="newscontainer">
+
+        <div class="storycontainer" id="left">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="left1"></div>
+            <div class="newsheadline">Coby Sey Shares an <br> Album Outtake</div>
+        </div>
+
+        <div class="storycontainer" id="center">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="center1"></div>
+            <div class="newsheadline">Rie Nakajima presents new<br>works in Birmingham</div>
+        </div>
+
+        <div class="storycontainer" id="right">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="right2"></div>
+            <div class="newsheadline">
+                Alexander Whitley in new collaboration with Beatrice Dillon
+            </div>
+        </div>
+
+
+        <div class="storycontainer" id="left">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="left2"></div>
+            <div class="newsheadline">
+                Mahogany Opera present <br> adaptation of Witkacy's Matka
+            </div>
+        </div>
+
+        <div class="storycontainer" id="center">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="center2"></div>
+            <div class="newsheadline">Lucrecia Dalt shares <br> video for “Edge”</div>
+        </div>
+
+        <div class="storycontainer" id="right">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="right1"></div>
+            <div class="newsheadline">Jenny Hval writes novel<br> about queer sensuality</div>
+        </div>
+
+
+        <div class="storycontainer" id="left">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="left3"></div>
+            <div class="newsheadline">
+                Dennis Morris's new photography <br> show focuses on PIL
+            </div>
+        </div>
+
+        <div class="storycontainer" id="center">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="center3"></div>
+            <div class="newsheadline">Live Arts Week VII starts <br>this month at Ex Gam</div>
+        </div>
+
+        <div class="storycontainer" id="right">
+            <div class="date">04/19/2018</div>
+            <div class="newsimage" id="right3"></div>
+            <div class="newsheadline">
+                Pianist Lisa Ullén shares <br> four unreleased recordings
+            </div>
+        </div>
+
+    </div>
+
+    <div id="slides3" class="gallery3">
+
+        <div>
+            <div class="tagcenter">Essays</div>
+            <div class="viewalltwo" id="black">view all</div>
+            <a href="article.html">
+                <div class="essayspic" id="nine"></div>
+            </a>
+            <div class="portalheadline">Divine Stylers</div>
+            <div class="captioncenter">Hiphop prophets from Wu-Tang Clan to Jay Electronica use Five-Percent
+                <br> theology to reveal New York as a site of holy revelation.
+            </div>
+        </div>
+
+        <div>
+            <div class="tagcenter">Essays</div>
+            <div class="viewalltwo" id="black">view all</div>
+            <div class="essayspic" id="eleven"></div>
+            <div class="portalheadline">
+                Revolutionary designs: the aesthetics of Zero and Unkant
+            </div>
+            <div class="captioncenter">Tony Herrington decodes the covers of two radical <br>political book publishers
+                with musical roots
+            </div>
+        </div>
+
+        <div>
+            <div class="tagcenter">Essays</div>
+            <div class="viewalltwo" id="black">view all</div>
+            <div class="essayspic" id="ten"></div>
+            <div class="portalheadline">The Cosmic Chirp</div>
+            <div class="captioncenter">What does it sound like when two black holes collide? Stefan Helmreich <br>tunes
+                in to how scientists listen to such cosmic cataclysms.
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="magazine">
+        <img src="images/cover.jpg" class="magazinepic">
+        <div class="black">
+            <div class="tag" id="white">Latest Issue</div>
+            <div class="headline" id="white" style="font-weight: 700; letter-spacing: 0.03em">ISSUE 412 : JUNE 2018
+            </div>
+            <div class="caption" id="white">read the issue online | buy issue 412</div>
+            <div class="magazinecontent" style="margin-top: 40px">Inside this issue : Laurie Anderson</div>
+            <div class="magazinepreview">More active than ever, the multimedia artist and performer discusses a career
+                marked by hybridity, borderless networks and a new interest in virtual reality.
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</div>
+<div class="footer">
+    <div class="captioncenter" style="letter-spacing: 0.04em">SUBSCRIBE | ADVERTISE | SITE MAP | PRESS CENTER | FAQ | ACCESSIBILITY | CONTACT | NEWSLETTER | WIRE STAFF | CONTRIBUTE</div>
+    <img src="images/logoblack-09.png" class="logo2">
+</div>
+<!--<h3>Tracks</h3>-->
+
+
+</body>
+
+
+</html>
